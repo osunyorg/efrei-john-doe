@@ -9,6 +9,23 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            #
+          value: >-
+            mailto:#
+      social_networks:
+        instagram:
+          label: >-
+            #
+          value: >-
+            https://instagram.com/#
+        linkedin:
+          label: >-
+            #
+          value: >-
+            #/
 
   taxonomies:
     administrator: administrators
