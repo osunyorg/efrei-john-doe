@@ -15,8 +15,16 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/actualites/2026-11-10-quest-ce-que-lanalytique-big-data/index.html"
+to = "/blog/2026-11-10-quest-ce-que-lanalytique-big-data/"
+
+[[redirects]]
 from = "/actualites/index.html"
 to = "/blog/"
+
+[[redirects]]
+from = "/projets/2025-data-miner-x/index.html"
+to = "/portfolio/2025-data-miner-x/"
 
 [[redirects]]
 from = "/actualites/2026-11-10-data-et-cybersecurite/index.html"
