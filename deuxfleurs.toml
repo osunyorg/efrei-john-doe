@@ -23,6 +23,10 @@ from = "/actualites/index.html"
 to = "/blog/"
 
 [[redirects]]
+from = "/projets/2025-data-miner-x/index.html"
+to = "/portfolio/2025-data-miner-x/"
+
+[[redirects]]
 from = "/actualites/2026-11-10-data-et-cybersecurite/index.html"
 to = "/blog/2026-09-10-data-et-cybersecurite/"
 
