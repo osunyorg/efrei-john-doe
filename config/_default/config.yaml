@@ -31,7 +31,7 @@ params:
   image_sizes:
     sections:
       projects:
-        hero:
+        hero_single:
           mobile:   400
           tablet:   800
-          desktop:  1600
+          desktop:  1792
