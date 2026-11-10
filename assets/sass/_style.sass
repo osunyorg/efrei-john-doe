@@ -23,7 +23,11 @@ footer#document-footer
                 height: $footer-sub-logo-height
         &__logo::after
             content: none
-
+        
+        @include media-breakpoint-down(desktop)
+            .container
+                > p
+                    margin-bottom: var(--grid-gutter)
 .hero
     &:not(.hero--with-image)
         @include media-breakpoint-up(desktop)
