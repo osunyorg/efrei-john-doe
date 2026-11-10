@@ -28,3 +28,10 @@ params:
         options:
           updated_at: false
           with_labels: false
+  image_sizes:
+    sections:
+      projects:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1600

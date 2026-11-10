@@ -25,3 +25,12 @@ header#document-header
         a
             font-weight: bold
             letter-spacing: 5%
+
+.projects__page
+    .hero
+        .content
+            @include media-breakpoint-up(desktop)
+                padding-top: 0
+                flex-direction: column-reverse
+                figure
+                    width: 100%
