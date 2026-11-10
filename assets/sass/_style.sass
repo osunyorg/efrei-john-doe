@@ -3,6 +3,27 @@ header#document-header
         .logo-text
             @include meta
 
+footer#document-footer
+    padding-bottom: 0
+    > .container
+        align-items: flex-end
+    .sub-footer
+        background-color: #051832
+        background: linear-gradient(270deg, #051832 0%, #163767 100%)
+        color: var(--color-background)
+        .container
+            align-items: center
+            padding-bottom: $spacing-3
+            padding-top: $spacing-3
+            .footer-credit
+                margin-top: 0
+                a
+                    color: inherit
+            img
+                height: $footer-sub-logo-height
+        &__logo::after
+            content: none
+
 .hero
     &:not(.hero--with-image)
         @include media-breakpoint-up(desktop)

@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="footer-social">
+    {{ partial "footer/social.html" . }}
+  </div>
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="sub-footer">
+  <div class="container">
+    {{ partial "footer/credit.html" . }}
+    <a href="https://www.efrei.fr/" target="_blank" rel="noreferrer" class="sub-footer__logo">
+      <img src="/assets/images/efrei-simple_logo.svg" alt="{{ i18n "commons.footer.logo" }}">
+    </a>
+  </div>
+</div>

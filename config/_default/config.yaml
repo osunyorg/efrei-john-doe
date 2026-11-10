@@ -9,7 +9,7 @@ params:
     active: true
   logo:
     header: ''
-    footer: '/assets/images/logo-efrei.svg'
+    footer: ''
   home:
     head:
       title: site
@@ -31,7 +31,7 @@ params:
   image_sizes:
     sections:
       projects:
-        hero:
+        hero_single:
           mobile:   400
           tablet:   800
-          desktop:  1600
+          desktop:  1792
