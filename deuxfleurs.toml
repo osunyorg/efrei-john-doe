@@ -19,6 +19,14 @@ from = "/actualites/index.html"
 to = "/blog/"
 
 [[redirects]]
+from = "/actualites/2026-11-10-data-et-cybersecurite/index.html"
+to = "/blog/2026-09-10-data-et-cybersecurite/"
+
+[[redirects]]
+from = "/actualites/2026-11-10-iag-et-data-analyse/index.html"
+to = "/blog/2025-11-10-iag-et-data-analyse/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/portfolio/"
 
