@@ -9,7 +9,7 @@ params:
     active: true
   logo:
     header: ''
-    footer: '/assets/images/logo-efrei.svg'
+    footer: ''
   home:
     head:
       title: site
