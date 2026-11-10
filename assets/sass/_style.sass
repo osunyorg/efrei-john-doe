@@ -1,5 +1,21 @@
-header#document-header,
-footer#document-footer
+header#document-header
     .logo
         .logo-text
             @include meta
+
+.hero
+    &:not(.hero--with-image)
+        @include media-breakpoint-up(desktop)
+            .content
+                .hero-text
+                    width: 100%
+                    .has-lead
+                        display: flex
+                        justify-content: space-between
+                        h1
+                            width: columns(7)
+                        p
+                            width: columns(5)
+                            @include body-text
+                    .hero-actions
+                        padding-left: offset(7)
